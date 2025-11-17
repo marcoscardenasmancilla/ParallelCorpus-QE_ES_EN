@@ -299,11 +299,6 @@ Each output folder: `parallel_outputs_{stem}_ES_EN/`
 - **Batch-local normalization**: `_minmax_series` normalizes scores within the current pair/batch; this avoids mixing distributions across corpora, but makes `qe_mix` relative to the processed batch.
 - **Diagnostics**: `print_env_info()` shows Python, NumPy, torch, and sentence-transformers availability, useful when opening issues.
 
-Performance tips:
-- For large corpora, run on machines with more RAM or use a GPU for S‑BERT (and COMET if available).
-- Increase `SBERT_BATCH_SIZE` to use GPU efficiently; on CPU keep it moderate (e.g., 32–64).
-- For reproducibility, pin package versions in `requirements.txt` and consider a Docker container.
-
 ---
 
 # Troubleshooting & diagnostics
