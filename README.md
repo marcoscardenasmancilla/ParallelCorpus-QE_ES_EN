@@ -1,7 +1,7 @@
-# ES_EN_translation_quality_analyzer
+# ES-EN Parallel Corpus Quality Estimation (QE)
 CPU-first, OOM-resilient pipeline that aligns Spanish–English CoNLL-U sentences, computes sentence-level adequacy (COMET-QE and sentence-BERT cosine), runs structural checks (length ratio, digits, punctuation), offers optional char-ngram heuristic, and outputs per-pair CSVs, PNGs, an HTML report and aggregated metrics.
 
-# ES–EN Parallel Corpus Pipeline v1.2-safe
+# ES-EN Parallel Corpus Quality Estimation (QE) | Pipeline v1.2-safe
 **ES↔EN GPT / S-BERT / COMET-QE Pipeline**  
 Detailed developer README describing architecture, configuration, and internals.
 
