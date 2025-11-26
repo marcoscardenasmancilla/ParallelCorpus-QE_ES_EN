@@ -359,6 +359,7 @@ You can extend or adapt the pipeline at multiple places:
 - GNU Affero General Public License v3.0.
 - Author / maintainer: Dr. Marcos H. Cárdenas-Mancilla.
 - Date of creation: November 17, 2025.
+- Contact: marcoscardenasmancilla@gmail.com
 - For reproducibility issues, include the output of `print_env_info()` when opening issues.
 
 ---
